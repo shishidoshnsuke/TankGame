@@ -97,6 +97,12 @@ public class PlayerScript : MonoBehaviour {
 		}
 	}
 
+	void OnCollisionStay (Collision col) {
+		if (col.gameObject.tag == "MoveFloor") {
+			this.transform.position = new Vector3(col.gameObject.transform.position.x ,this.gameObject.transform.position.y,col.gameObject.transform.position.z);
+		}
+	}
+
 	void SavePoint(){
 		SavePointCount -= 1;
 		if (SavePointCount <= 0) SavePointCount = 0;

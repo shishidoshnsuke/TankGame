@@ -62,6 +62,7 @@
      <Compile Include="Assets\Script\GunMissileScript.cs" />
      <Compile Include="Assets\Script\GunMouseScript.cs" />
      <Compile Include="Assets\Script\MissileScript.cs" />
+     <Compile Include="Assets\Script\MoveLeftRightScript.cs" />
      <Compile Include="Assets\Script\OriginalTargetScript.cs" />
      <Compile Include="Assets\Script\ParticleSystemScript.cs" />
      <Compile Include="Assets\Script\PlayerScript.cs" />
